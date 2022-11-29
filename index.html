@@ -1,0 +1,109 @@
+<!-- ОГОБ имя и т.д.
+    <html>
+   <head>
+<title>name</title>
+   </head>
+      <body> 
+    <h1>Hello from HTML</h1>
+    <hr>
+      </body>
+</html>
+<!-- Через ! знак и таб получила всё это.
+позже убрала всё то, что мне пока не надо -->
+<!DOCTYPE html>
+<html> 
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>name</title>
+</head>
+<body>
+    <table cellspacing="15">
+        <tr>
+            <td><img src="kaktus.jpg" width="400" alt="моя фотография-портрет"></td>
+            <td><h1>Комочек Кактуса</h1> 
+                <p><em> Я <strong>digital</strong> художница</em> </p>
+                <p>Увлекаюсь рисованием и люблю самосовершенствоваться в разных областях</p>
+                   </td>
+        </tr>
+    </table>
+    <!-- src- путь(ссылка на картинку-https://zooclub.ru/attach/56000/56247.jpg) 
+        width-ширина 
+        alt-если что-то не так с картинкой высвечивает иконку и нашу надпись-->
+    <!-- <strong>- жирный
+    <em>- курсив -->
+        <hr>
+    <h2>Мои социальные сети</h2>
+    <!-- связные теги -->
+    <ul type="circle">
+        <!-- таргет- открывает в новом окне, хреф- делает надпись ссылкой -->
+       <li><a href="https://vk.com/kkaktusa" target="_blank"> VKontakte</a></li>
+       <li><a href="https://t.me/kote72642" target="_blank">Telegram</a></li>
+    </ul>
+    <hr>
+    <h2>Мои хобби</h2>
+    <ol type="I">
+        <li>Рисовать</li>
+        <li>Make-up</li>
+    </ol>
+    <hr>
+<h2>Опыт работы</h2>
+<!-- tablet- таблица 
+tr- строчки
+td- колонны -->
+<table >
+    <!-- <thead> -->
+         <tr>
+            <th>Компания</th>
+            <th>Должность</th>
+            <th>Года</th>
+         </tr>
+    <!-- </thead> -->
+    <!-- <tbody> -->
+        <tr>
+            <td>Нигде</td>
+            <td>Никем</td>
+            <td>Никогда</td>
+        </tr>
+        <tr>
+            <td>Где-то</td>
+            <td>Кем-то</td>
+            <td>Когда-то</td>
+        </tr>
+    <!-- </tbody> -->
+    <!-- <tfoot></tfoot> -->
+   
+    
+</table>
+<hr>
+    <h2>Art проекты</h2>
+    <a href="art.html">Посмотреть список</a>
+<hr>
+    <h2>Связаться со мной</h2>
+    <!-- action- куда отправить -->
+    <form action="/">
+      <!-- input со значением текст- даёт вписать в него текст -->
+        <label for="name">Ваше имя:</label>
+         <input type="text" id="name" placeholder="Например, Ева...">
+<!-- Если for и id совпадают, тогда по нажатию на напдпись переключается на input -->
+<br>
+<label for="email">Ваша почта:</label>
+         <input type="email" id="email" placeholder="Ваш прекрасный email...">
+             <!-- input со значением номер- даёт выбрать число 
+             input со значением password- двёт вписать в него текст, но не даёт увидеть, что именно 
+             input со значением color- двёт выбрать цвет 
+             input со значением checkbox- двёт поставить галочку
+             input со значением радио- двёт выбрать( кружочек ) 
+             input со значением submit- двёт отправить(кнопочку)
+             input со значением date- двёт вписать в него дату с дд. мм. гггг. и т.д.-->
+             <br>
+<label for="text">Ваше сообщение:</label>
+<textarea id="text"rows="5" cols="45"></textarea>
+<!-- rows- задаёт кол-во строк
+cols- кол-во колонок -->
+             <br>
+             <input type="submit" value="Связаться">
+    </form>
+</body>
+</html>   
